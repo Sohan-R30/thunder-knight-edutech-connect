@@ -1,17 +1,17 @@
 import { useQuery } from "@tanstack/react-query";
 
 
-const useClass = () => {
+const useclassName = () => {
 
-    const {data: classes = [], isLoading: loading, refetch} = useQuery({
-        queryKey:['classes'],
-        queryFn: async()=>{
-            const res = await fetch('https://summer-camp-server-lilac.vercel.app/class');
+    const { data: classNamees = [], isLoading: loading, refetch } = useQuery({
+        queryKey: ['classNamees'],
+        queryFn: async () => {
+            const res = await fetch('https://summer-camp-server-lilac.vercel.app/className');
             return res.json();
         }
 
     })
-    return [classes, loading, refetch]
+    return [classNamees, loading, refetch]
 }
 
-export default useClass;
+export default useclassName;
