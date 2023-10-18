@@ -63,7 +63,7 @@ const Navbar = () => {
               className="w-18 h-12"
             />
             <Link to="/" className="text-blue-900 text-4xl font-mono">
-            Edutech <br /> Connect
+              Edutech <br /> Connect
             </Link>
           </div>
 
@@ -75,8 +75,8 @@ const Navbar = () => {
               <NavLink to="/instructors" className="text-gray-500">
                 Instructors
               </NavLink>
-              <NavLink to="/classes" className="text-gray-500">
-                Classes
+              <NavLink to="/classNamees" className="text-gray-500">
+                classes
               </NavLink>
               {user && <NavLink to={'/dashboard'} className="text-gray-500">Dashboard</NavLink>}
               {renderAuthButtons()}
@@ -146,10 +146,10 @@ const Navbar = () => {
               Instructors
             </NavLink>
             <NavLink
-              to="/classes"
+              to="/classNamees"
               className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-white hover:bg-gray-700"
             >
-              Classes
+              classNamees
             </NavLink>
             {user && <NavLink to={'/dashboard'} className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-white hover:bg-gray-700">Dashboard</NavLink>}
           </div>

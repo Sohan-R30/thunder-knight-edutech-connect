@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MyEnrolledClasses = () => {
+const MyEnrolledclassNamees = () => {
     return (
         <div>
-            
+
         </div>
     );
 };
 
-export default MyEnrolledClasses;
+export default MyEnrolledclassNamees;
