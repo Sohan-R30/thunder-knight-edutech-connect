@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex items-center">
           <img src="https://i.ibb.co/1Jj7wZY/png-transparent-act-sat-reading-computer-icons-reading-child-text-reading-removebg-preview.png" alt="Logo" className="w-18 h-12" />
           <Link to="/" className="text-white text-4xl font-bold">
-            CampKnowledge
+           Edutech Connect
           </Link>
         </div>
         <div className="">
